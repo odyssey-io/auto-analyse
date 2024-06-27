@@ -1,0 +1,28 @@
+.actions {
+    text-align: center;
+}
+
+.actions > .action {
+    margin: 5px 10px;
+    width: 200px;
+}
+  
+@media only screen and (min-width: 600px) {
+    .actions > .action {
+        margin: 5px;
+        width: calc(50% - 15px);
+    }
+}
+  
+@media only screen and (min-width: 1100px) {
+    .actions > .action {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+  
+@media only screen and (min-width: 1400px) {
+    .actions > .action {
+        width: 80%;
+    }
+}
